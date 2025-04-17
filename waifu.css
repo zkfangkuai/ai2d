@@ -12,6 +12,7 @@
 	transition: margin-left 1s;
 	width: 60px;
 	writing-mode: vertical-rl;
+	z-index: 9995;
 }
 
 #waifu-toggle.waifu-toggle-active {
