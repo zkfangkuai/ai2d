@@ -1,0 +1,51 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "Q沁姑娘.moc3",
+		"Textures": [
+			"Q沁姑娘.4096/texture_00.webp",
+			"Q沁姑娘.4096/texture_01.webp",
+			"Q沁姑娘.4096/texture_02.webp",
+			"Q沁姑娘.4096/texture_03.webp"
+		],
+		"Physics": "Q沁姑娘.physics3.json",
+		"DisplayInfo": "Q沁姑娘.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "眼睛红",
+				"File": "expressions/眼睛红.exp3.json"
+			},{
+				"Name": "脸红",
+				"File": "expressions/脸红.exp3.json"
+			},
+			{
+				"Name": "尾巴2",
+				"File": "expressions/尾巴2.exp3.json"
+			}
+		],
+		"Motions": {
+			"TapBody": [
+				{
+					"File": "尾巴.motion3.json"
+				}
+			]
+		}
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen",
+				"ParamBreath"
+			]
+		}
+	],
+	"HitAreas": []
+}
