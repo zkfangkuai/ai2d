@@ -133,32 +133,23 @@
     "IntimacySystem": {}
   },
   "HitAreas": [
-    {
-      "Name": "weixiao",
-      "Id": "ArtMesh8",
-      "Motion": "emotion:weixiao"
-    },
-    {
-      "Name": "yansu",
-      "Id": "ArtMesh10",
-      "Motion": "emotion:yansu"
-    },
-    {
-      "Name": "shiyanzhifa",
-      "Id": "bozi",
-      "Motion": "Tap:shiyanzhifa"
-    },
-    {
-      "Name": "gongping",
-      "Id": "qianfa",
-      "Motion": "Tap:gongping"
-    },
-    {
-      "Name": "dazhaohu",
-      "Id": "body",
-      "Motion": "Tap:dazhaohu"
-    }
-  ],
+  {
+    "Name": "shiyanzhifa",
+    "Id": "bozi",
+    "Motion": "TapBody:shiyanzhifa"
+  },
+  {
+    "Name": "gongping",
+    "Id": "qianfa",
+    "Motion": "TapBody:gongping"
+  },
+  {
+    "Name": "dazhaohu",
+    "Id": "body",
+    "Motion": "TapBody:dazhaohu"
+  }
+],
+
   "Options": {
     "PositionY": -1.0
   }
