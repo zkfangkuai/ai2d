@@ -1,27 +1,4 @@
-# <center>Live2d-Widget-v3
 
----
-
-## 1 介绍
-
-+ **演示地址**：[DEMO](https://letere-gzj.github.io/live2d-widget-v3/)
-+ **文章教程**：[【Hugo】博客引入moc3类型的live2d模型](https://letere-gzj.github.io/hugo-stack/p/hugo/live2d-moc3/)
-
-![](md/png/sample.png)
-
-> [!NOTE]
-> + （1）此项目是基于【[stevenjoezhang/live2d-widget](https://github.com/stevenjoezhang/live2d-widget)】项目的二次开发
-> + （2）原本live2d-widget只能渲染moc模型，无法渲染moc3模型，于是此项目在原版的架构上，对接了新版的Cubism SDK for Web(sdk当前版本v5)，来渲染moc3模型
-> + （3）因为是基于live2d-widget项目的二次开发，使用体验上与原版的live2d-widget相差不大，基本的功能都有所保留
-
-> [!TIP]
->  + **Tips:** 此项目暂适配moc3模型，并不适配moc模型，且暂时未考虑适配moc模型
-
----
-
-## 2 使用方法
-
-### 2.1 基础引入
 
 + 在页头(head)或页脚(footer)引入以下脚本代码，演示的模型是官方SDK自带的模型
 ```html
@@ -211,19 +188,3 @@
   }
 }
 ```
-
-![](./md/png/动作点击.gif)
-
----
-
-## 3 推荐项目
-+ 如果你需要moc模型与moc3模型都能适配的技术，个人推荐使用以下项目
-+ [oh-my-live2d/oh-my-live2d](https://github.com/oh-my-live2d/oh-my-live2d)
-+ [Konata09/Live2dOnWeb](https://github.com/Konata09/Live2dOnWeb)
-
----
-
-## 4 参考文献
-+ [笔记：live2d4.0 sdk 博客园网页动画](https://blog.csdn.net/weixin_44128558/article/details/104792345)
-+ [live2d（Web SDK 4.x）Web看板娘进阶](https://blog.csdn.net/qq_37735413/article/details/119413744)
-+ [live2d web笔记之一：官方SDK尝试](https://blog.csdn.net/weixin_42578046/article/details/123509508)
