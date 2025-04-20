@@ -21,25 +21,6 @@
           "File": "motions/dazhaohu.motion3.json"
         }
       ],
-      "emotion": [
-        {
-          "Name": "weixiao",
-          "Expression": "weixiao"
-        },
-        {
-          "Name": "yansu",
-          "Expression": "yansu"
-        },
-        {
-          "Name": "longjiao",
-          "Expression": "longjiao"
-        },
-        {
-          "Name": "cat",
-          "Expression": "cat"
-        }
-      ]
-    },
     "Expressions": [
       {
         "Name": "weixiao",
