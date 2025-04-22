@@ -38,7 +38,7 @@
         "Name": "cat",
         "File": "expressions/cat.exp3.json"
       }
-    ],
+    ]
   "Controllers": {
     "ParamHit": {},
     "ParamLoop": {},
