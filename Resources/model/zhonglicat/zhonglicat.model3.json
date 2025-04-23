@@ -20,7 +20,8 @@
           "Name": "dazhaohu",
           "File": "motions/dazhaohu.motion3.json"
         }
-      ]},
+      ]
+    },
     "Expressions": [
       {
         "Name": "weixiao",
@@ -39,6 +40,7 @@
         "File": "expressions/cat.exp3.json"
       }
     ]
+  },
   "Controllers": {
     "ParamHit": {},
     "ParamLoop": {},
@@ -113,23 +115,22 @@
     "IntimacySystem": {}
   },
   "HitAreas": [
-  {
-    "Name": "shiyanzhifa",
-    "Id": "bozi",
-    "Motion": "TapBody:shiyanzhifa"
-  },
-  {
-    "Name": "gongping",
-    "Id": "qianfa",
-    "Motion": "TapBody:gongping"
-  },
-  {
-    "Name": "dazhaohu",
-    "Id": "body",
-    "Motion": "TapBody:dazhaohu"
-  }
-],
-
+    {
+      "Name": "shiyanzhifa",
+      "Id": "bozi",
+      "Motion": "TapBody:shiyanzhifa"
+    },
+    {
+      "Name": "gongping",
+      "Id": "qianfa",
+      "Motion": "TapBody:gongping"
+    },
+    {
+      "Name": "dazhaohu",
+      "Id": "body",
+      "Motion": "TapBody:dazhaohu"
+    }
+  ],
   "Options": {
     "PositionY": -1.0
   }
